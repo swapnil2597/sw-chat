@@ -1,0 +1,44 @@
+.sidebar-chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0 20px 20px;
+  cursor: pointer;
+  color: #b1b3b5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-chat .sidebar-chat-info {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.sidebar-chat .sidebar-chat-info h2 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.sidebar-chat .sidebar-chat-info p {
+  color: #898b8c;
+  white-space: pre-line;
+}
+
+.sidebar-chat .sidebar-chat-info .bottom-border-hr {
+  border-bottom: 1px solid #3f4448;
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.sidebar-chat:hover {
+  background-color: #323739;
+}
+
+.sidebarChat__link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=SidebarChat.css.map */
